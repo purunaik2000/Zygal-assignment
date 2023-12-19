@@ -23,6 +23,11 @@ button.addEventListener('click', (event)=>{
         return;
     }
 
+    // handle negative number
+    if(input <= 0){
+        alert("The number should be positive.");
+    }
+
     // console.log(input, window.innerHeight/input);
 
     // To clear the box Container
