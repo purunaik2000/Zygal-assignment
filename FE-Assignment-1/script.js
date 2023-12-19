@@ -26,6 +26,7 @@ button.addEventListener('click', (event)=>{
     // handle negative number
     if(input <= 0){
         alert("The number should be positive.");
+        return;
     }
 
     // console.log(input, window.innerHeight/input);
